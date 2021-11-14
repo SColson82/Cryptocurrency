@@ -8,8 +8,8 @@
 > ![image](https://user-images.githubusercontent.com/83737584/140853023-17706af5-28c6-49a7-879f-3050d1ee9367.png)
 
 
-* In order to evaluate whether these could be clustered I chose to use an unsupervised machine learning model and used Label Encoding to convert all of the available data to numeric. I used Lable Encoding rather than One-Hot Encoding to decrease the size of the DataFrames being created while still retaining all of the data in the numeric format. 
->![image](https://user-images.githubusercontent.com/83737584/140853241-f502088a-a290-489f-9f48-73c73c884599.png)
+* In order to evaluate whether these could be clustered I chose to use an unsupervised machine learning model and used One-Hot Encoding to convert all of the available data to numeric.  
+>![image](https://user-images.githubusercontent.com/83737584/141698724-4e409e70-64ce-4bdb-b4c1-62f7ddf29963.png)
 
 
 * Once this was completed, the data was scaled using Standard Scaler. 
@@ -20,7 +20,7 @@
 
 ## Conclusions: The data CAN be clustered using these methods and the optimal number of clusters appears to be 4. 
 
-> ![image](https://user-images.githubusercontent.com/83737584/140852634-256e2597-101c-4176-999b-55f2391f6b6c.png)
+> ![image](https://user-images.githubusercontent.com/83737584/141698804-e0594e9a-a8fb-417a-8c0f-c5061d2d6816.png)
 
 
 # 💹 But which currencies should be clustered together in each portfolio option?
